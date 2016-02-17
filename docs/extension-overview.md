@@ -1,5 +1,5 @@
 ##Invoke-Build
-This extension contains a build task that run [Invoke-Build](https://github.com/nightroman/Invoke-Build) build scripts.
+This extension contains a build task that run [Invoke-Build](https://github.com/nightroman/Invoke-Build) build scripts. It uses the version 2.14.0 of Invoke-Build.
 
 ##How to use the build task
 1. After installing the extension, upload your project to VSTS.

@@ -2,7 +2,8 @@
     "manifestVersion": 1,
     "id": "invokebuild",
     "name": "Invoke-Build",
-    "version": "0.1.0",
+    "version": "1.0.0",
+    "public": true,
     "publisher": "qetza",
     "targets": [
         {
@@ -52,7 +53,7 @@
     ],
     "contributions": [
         {
-            "id": "psake-task",
+            "id": "invokebuild-task",
             "type": "ms.vss-distributed-task.task",
             "targets": [
                 "ms.vss-distributed-task.tasks"
