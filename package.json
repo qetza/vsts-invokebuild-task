@@ -1,0 +1,24 @@
+{
+  "name": "qetza.vsts-invokebuild-task",
+  "version": "0.1.0",
+  "description": "Build task for VS Team Services that can run Invoke-Build build scripts.",
+  "author": "Guillaume Rouchon",
+  "license": "MIT",
+  "homepage": "https://github.com/qetza/vsts-invokebuild-task#readme",
+  "bugs": {
+    "url": "https://github.com/qetza/vsts-invokebuild-task/issues"
+  },
+  "keywords": [
+      "VSTS",
+      "build",
+      "tasks",
+      "invoke-build"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qetza/vsts-invokebuild-task.git"
+  },
+  "devDependencies": {
+    "vsts-task-sdk": "^0.5.1"
+  }
+}

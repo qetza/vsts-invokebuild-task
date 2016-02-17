@@ -1,0 +1,2 @@
+# Visual Studio Team Services extension for Invoke-Build
+This extension contains a build task for VS Team Services that can run [Invoke-Build](https://github.com/nightroman/Invoke-Build) build scripts.
