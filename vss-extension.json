@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "invokebuild",
     "name": "Invoke-Build",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "public": true,
     "publisher": "qetza",
     "targets": [
