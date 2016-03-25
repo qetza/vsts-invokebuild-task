@@ -9,16 +9,22 @@
     "url": "https://github.com/qetza/vsts-invokebuild-task/issues"
   },
   "keywords": [
-      "VSTS",
-      "build",
-      "tasks",
-      "invoke-build"
+    "VSTS",
+    "build",
+    "tasks",
+    "invoke-build"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qetza/vsts-invokebuild-task.git"
   },
   "devDependencies": {
-    "vsts-task-sdk": "^0.5.1"
+    "del": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^2.1.2",
+    "gulp-util": "^3.0.0",
+    "merge-stream": "^1.0.0",
+    "shelljs": "^0.3.0",
+    "vsts-task-sdk": "^0.6.0"
   }
 }

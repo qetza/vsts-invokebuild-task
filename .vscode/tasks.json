@@ -1,19 +1,31 @@
 {
-	"version": "0.1.0",
-	"command": "cmd",
-	"isShellCommand": true,
-	"showOutput": "always",
-	"args": ["/c"],
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
     "tasks": [
         {
             "taskName": "build",
-            "suppressTaskName": true,
+            "args": [],
             "isBuildCommand": true,
-            "args": [
-                "xcopy",
-                "${workspaceRoot}\\node_modules\\vsts-task-sdk\\VstsTaskSdk", 
-                "${workspaceRoot}\\task\\ps_modules\\VstsTaskSdk\\", 
-                "/EY"
+            "isWatching": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
+            ]
+        },
+        {
+            "taskName": "test",
+            "args": [],
+            "isBuildCommand": true,
+            "isWatching": false,
+            "problemMatcher": [
+                "$lessCompile",
+                "$tsc",
+                "$jshint"
             ]
         }
     ]
