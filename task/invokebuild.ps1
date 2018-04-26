@@ -22,33 +22,30 @@ try {
     }
 
     # prepare script command
-    $arguments = ''
-    
-    if ($buildFile)
-    {
-        $arguments += " -File '${buildFile}'"
-    }
-    
+    $arguments += " -File '${buildFile}'"
+
     if ($tasks)
     {
         $arguments += " -Task ${tasks}"
     }
-    
+
     if ($summary)
     {
         $arguments += ' -Summary'
     }
-    
+
     if ($parameters)
     {
         $arguments += " ${parameters}"
     }
-    
-    $command = "& .\Invoke-Build.ps1 ${arguments}"
-    
+
+    $command = "& Invoke-Build ${arguments}"
+
+    Import-Module -Name $PSScriptRoot\ps_modules\InvokeBuild\InvokeBuild.psd1
+
     # invoke command
     Write-Verbose "command: ${command}"
-    
+
     Invoke-Expression -Command $command
 }
 finally

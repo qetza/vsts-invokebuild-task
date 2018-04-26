@@ -10,9 +10,9 @@
   ],
   "author": "Guillaume Rouchon",
   "version": {
-    "Major": 2,
-    "Minor": 14,
-    "Patch": 0
+    "Major": 5,
+    "Minor": 4,
+    "Patch": 1
   },
   "minimumAgentVersion": "1.92.0",
   "inputs": [
@@ -52,7 +52,7 @@
   "instanceNameFormat": "Invoke-Build $(tasks) $(buildFile)",
   "execution": {
     "PowerShell3": {
-      "target": "run-invokebuild.ps1",
+      "target": "invokebuild.ps1",
       "argumentFormat": "",
       "workingDirectory": "$(currentDirectory)"
     }
